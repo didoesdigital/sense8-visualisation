@@ -1,0 +1,85 @@
+{
+  "licenseDetails": {
+    "code": "CC BY-SA",
+    "name": "Creative Commons Attribution-Share Alike License 3.0 (Unported)",
+    "licenseInUse": "https://www.fandom.com/licensing",
+    "canonicalURL": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "credit": {
+      "nameOfCreator": "sense8 wiki",
+      "title": "List of connections",
+      "material": "https://sense8.fandom.com/wiki/List_of_connections",
+      "changes": "Formatting of data"
+    }
+  },
+  "data": [
+    {"sensates": ["Jonas", "Angelica"], "visitor": "Jonas", "details": "Jonas visits Angelica as she is about to commit suicide.", "episodeNumber": 1, "episodeName": "Limbic Resonance"},
+    {"sensates": ["Whispers", "Angelica"], "visitor": "Whispers", "details": "Whispers visits Angelica simultaneously with Jonas, telling her she can't go through with the suicide. Whispers and Jonas cannot see each other.", "episodeNumber": 1, "episodeName": "Limbic Resonance"},
+    {"sensates": ["Riley", "Will"], "visitor": "Riley", "details": "Will hears the music Riley is playing in the club.", "episodeNumber": 1, "episodeName": "Limbic Resonance"},
+    {"sensates": ["Wolfgang", "Kala"], "visitor": "Wolfgang", "details": "Kala hears rain and thunder from Wolfgang's grandfather's funeral.", "episodeNumber": 1, "episodeName": "Limbic Resonance"},
+    {"sensates": ["Capheus", "Sun"], "visitor": "Capheus", "details": "The chicken Capheus receives as payment for a bus ride appears in Sun's office.", "episodeNumber": 1, "episodeName": "Limbic Resonance"},
+    {"sensates": ["Riley", "Nomi"], "visitor": "Riley", "details": "Riley finds herself in Nomi's place, with Amanita in the park during Pride.", "episodeNumber": 1, "episodeName": "Limbic Resonance"},
+    {"sensates": ["Will", "Wolfgang"], "visitor": "Will", "details": "Wolfgang hears the sirens from Will's police car as he's trying to open the safe.", "episodeNumber": 1, "episodeName": "Limbic Resonance"},
+    {"sensates": ["Wolfgang", "Riley"], "visitor": "Wolfgang", "details": "Riley hears the clicking from the safe Wolfgang is trying to open.", "episodeNumber": 1, "episodeName": "Limbic Resonance"},
+    {"sensates": ["Will", "Riley"], "visitor": "Will", "details": "Riley hears the sirens from Will's police car.", "episodeNumber": 1, "episodeName": "Limbic Resonance"},
+    {"sensates": ["Riley", "Will"], "visitor": "Riley", "details": "Riley finds herself in Will's body in Chicago as she gets high on DMT. Will sees her outside his car window.", "episodeNumber": 1, "episodeName": "Limbic Resonance"},
+    {"sensates": ["Riley", "Will"], "visitor": "Riley", "details": "Riley visits Will in the church Angelica killed herself, and they have a conversation.", "episodeNumber": 1, "episodeName": "Limbic Resonance"},
+    {"sensates": ["Will", "Riley"], "visitor": "Will", "details": "Will visits Riley in London briefly as the men around her start shooting.", "episodeNumber": 1, "episodeName": "Limbic Resonance"},
+
+    {"sensates": ["Capheus", "Nomi"], "visitor": "Capheus", "details": "Capheus visits Nomi at the San Francisco Pride.", "episodeNumber": 2, "episodeName": "I Am Also A We"},
+    {"sensates": ["Riley", "Nomi"], "visitor": null, "details": "Nomi visits Riley in London as she is singing to herself, and Riley visits Nomi in the hospital in San Francisco.", "episodeNumber": 2, "episodeName": "I Am Also A We"},
+    {"sensates": ["Wolfgang", "Kala"], "visitor": "Wolfgang", "details": "Kala feels the heat from Wolfgang's vigorous sex.", "episodeNumber": 2, "episodeName": "I Am Also A We"},
+    {"sensates": ["Kala", "Wolfgang"], "visitor": "Kala", "details": "Wolfgang strongly craves indian food due to the food at Kala's engagement party.", "episodeNumber": 2, "episodeName": "I Am Also A We"},
+    {"sensates": ["Kala", "Wolfgang"], "visitor": null, "details": "Wolfgang sees Kala while he's eating in a restaurant, and Kala sees him from her balcony.", "episodeNumber": 2, "episodeName": "I Am Also A We"},
+    {"sensates": ["Riley", "Will"], "visitor": null, "details": "Riley and Will see the other as their own reflection in the mirror.", "episodeNumber": 2, "episodeName": "I Am Also A We"},
+    {"sensates": ["Riley", "Nomi"], "visitor": "Riley", "details": "Nomi hears knocks on her door in the hospital, that came from Riley's apartment.", "episodeNumber": 2, "episodeName": "I Am Also A We"},
+
+    {"sensates": ["Sun", "Will"], "visitor": null, "details": "Sun and Will, reading each their file, briefly see the other's file. Sun visits Will's apartment.", "episodeNumber": 3, "episodeName": "Smart Money Is on the Skinny Bitch"},
+    {"sensates": ["Lito", "Riley"], "visitor": null, "details": "Briefly visit each other when talking about betrayal.", "episodeNumber": 3, "episodeName": "Smart Money Is on the Skinny Bitch"},
+    {"sensates": ["Will", "Capheus"], "visitor": null, "details": "Visit each other when picking up handguns.", "episodeNumber": 3, "episodeName": "Smart Money Is on the Skinny Bitch"},
+    {"sensates": ["Capheus", "Sun"], "visitor": "Capheus", "details": "Capheus visits Sun asking for help with the gangsters", "episodeNumber": 3, "episodeName": "Smart Money Is on the Skinny Bitch"},
+    {"sensates": ["Sun", "Capheus"], "visitor": "Sun", "details": "Sun controls Capheus to beat up the gangsters.", "episodeNumber": 3, "episodeName": "Smart Money Is on the Skinny Bitch"},
+
+    {"sensates": ["Capheus", "Wolfgang"], "visitor": "Capheus", "details": "While trying on shoes, Wolfgang's feet feel strange as Capheus walks through the forest.", "episodeNumber": 4, "episodeName": "What's Going On?"},
+    {"sensates": ["Nomi", "Wolfgang"], "visitor": "Nomi", "details": "At dinner with Felix, Wolfgang briefly hallucinates Nomi's wristcuffs from the hospital on his hands.", "episodeNumber": 4, "episodeName": "What's Going On?"},
+    {"sensates": ["Will", "Sun"], "visitor": null, "details": "Will visits Sun as she is walking through the sex club and they both disarm the attacker holding a gun to Sun's head.", "episodeNumber": 4, "episodeName": "What's Going On?"},
+    {"sensates": ["Sun", "Will"], "visitor": null, "details": "When speaking to another officer, Will says \"it's good to see you\" in Korean.", "episodeNumber": 4, "episodeName": "What's Going On?"},
+    {"sensates": ["Jonas", "Will"], "visitor": null, "details": "Will learns about visiting and steps in Jonas's cell. Jonas tells him to save Nomi.", "episodeNumber": 4, "episodeName": "What's Going On?"},
+    {"sensates": ["Will", "Nomi"], "visitor": null, "details": "Will watches Nomi be wheeled past him to surgery.", "episodeNumber": 4, "episodeName": "What's Going On?"},
+    {"sensates": ["Riley", "Kala"], "visitor": "Riley", "details": "Kala briefly wakes up in Riley's bed and hears Riley's friend Shugs having sex.", "episodeNumber": 4, "episodeName": "What's Going On?"},
+    {"sensates": ["Riley", "Will", "Wolfgang", "Kala", "Capheus", "Sun", "Nomi"], "visitor": null, "details": "everyone hears the song \"What's going on?\" as Riley plays it on her iPod and sings along.", "episodeNumber": 4, "episodeName": "What's Going On?"},
+    {"sensates": ["Kala", "Wolfgang"], "visitor": null, "details": "visit each other while singing", "episodeNumber": 4, "episodeName": "What's Going On?"},
+    {"sensates": ["Will", "Nomi"], "visitor": "Will", "details": "Will wakes up in Nomi's body on the gurney, and uses the metal of the needle to unlock the handcuffs and help Nomi escape.", "episodeNumber": 4, "episodeName": "What's Going On?"},
+
+    {"sensates": ["Sun", "Lito"], "visitor": null, "details": "Lito experiences Sun's period cramps. Lito visits Sun's apartment and Sun visits Lito's trailer.", "episodeNumber": 5, "episodeName": "Art is like Religion"},
+    {"sensates": ["Riley", "Capheus"], "visitor": null, "details": "Riley visits Capheus in Kenya, and Capheus visits her in London. They remark on the wildly different temperatures.", "episodeNumber": 5, "episodeName": "Art is like Religion"},
+    {"sensates": ["Sun", "Lito"], "visitor": null, "details": "Lito begins crying in his car, channeling Sun's distress. They visit each other's locations.", "episodeNumber": 5, "episodeName": "Art is like Religion"},
+    {"sensates": ["Will", "Nomi"], "visitor": null, "details": "Will calls Nomi's mother, looking for information on her wherebouts. While speaking to her, he inhabits Nomi's body, and she hears what her mother is saying.", "episodeNumber": 5, "episodeName": "Art is like Religion"},
+    {"sensates": ["Kala", "Nomi"], "visitor": null, "details": "Kala's father cooks for her, and Nomi remarks that her coffee suddenly tastes much more sugary.", "episodeNumber": 5, "episodeName": "Art is like Religion"},
+    {"sensates": ["Kala", "Wolfgang"], "visitor": null, "details": "While Wolfgang is at a club and Kala is in her bedroom, they hear each other and understand what the other is saying, even though Kala is speaking Hindi and Wolfgang is speaking German. Kala recognizes Wolfgang's voice from the sing-along the day before but believes it was a dream. Wolfgang says \"I can't see you\" in Hindi.", "episodeNumber": 5, "episodeName": "Art is like Religion"},
+    {"sensates": ["Will", "Lito"], "visitor": null, "details": "When Will knocks on a suspect's door, he sees Lito instead. They visit each other's stressful situations- Will on the hunt for a perp, Lito while filming a shooting scene in his movie.", "episodeNumber": 5, "episodeName": "Art is like Religion"},
+    {"sensates": ["Capheus", "Sun"], "visitor": null, "details": "Visit each other while walking down the street in their hometowns, and understand each other despite speaking Swahili or Korean. They talk about their mothers and difficult choices ahead.", "episodeNumber": 5, "episodeName": "Art is like Religion"},
+    {"sensates": ["Sun", "Kala"], "visitor": null, "details": "While walking to her wedding, Kala briefly visits Sun as she hands her dog to her teacher. Sun briefly sits in Kala's chair as she is carried to the wedding ceremony.", "episodeNumber": 5, "episodeName": "Art is like Religion"},
+    {"sensates": ["Wolfgang", "Kala"], "visitor": null, "details": "Wolfgang appears naked at the end of Kala's wedding ceremony, telling her she should not marry Rajan because she doesn't love him. She faints, then Wolfgang faints as well.", "episodeNumber": 5, "episodeName": "Art is like Religion"},
+
+    {"sensates": ["Riley", "Will"], "visitor": null, "details": "Will and Riley visit each other in bars in Chicago and London. Will enters his phone number and tells Riley to call him. The phone rings and they speak over the phone, proving the connection.", "episodeNumber": 5, "episodeName": "Art is like Religion"},
+    {"sensates": ["Sun", "Nomi"], "visitor": null, "details": "As Sun is about to turn herself in, she sees Nomi.", "episodeNumber": 5, "episodeName": "Art is like Religion"},
+    {"sensates": ["Will", "Riley"], "visitor": "Will", "details": "As Riley is being suffocated, Will takes over her body and fights off the attackers, simultaneously hitting and kicking police buddies at the bar he is actually in.", "episodeNumber": 5, "episodeName": "Art is like Religion"},
+    {"sensates": ["Wolfgang", "Kala"], "visitor": null, "details": "Wolfgang appears, again naked, in Kala's bed the next morning, and she accuses him of being a demon. He answers that he's wanted her from the moment he saw her, and he senses that she feels the same.", "episodeNumber": 5, "episodeName": "Art is like Religion"},
+    {"sensates": ["Lito", "Will", "Wolfgang", "Nomi"], "visitor": null, "details": "Have an orgy. WTF?", "episodeNumber": 5, "episodeName": "Art is like Religion"},
+    {"sensates": ["Riley", "Sun"], "visitor": "Riley", "details": "After almost dying, Riley visits Sun in prison. Riley is sitting in front of a stone bench that reads \"I have conversed with the spiritual sun.\" Sun smokes a hash cigarette through Riley.", "episodeNumber": 5, "episodeName": "Art is like Religion"},
+
+    {"sensates": ["Kala", "Wolfgang"], "visitor": null, "details": "As Kala is praying to Ganesha, they meet once more, simultaneously outdoors in India and during a downpour at a cafe in Berlin. Wolfie asks if the connection is a miracle, and Kala says she believes that's the appropriate term.", "episodeNumber": 7, "episodeName": "W.W. N. Double D.?"},
+
+    {"sensates": ["Nomi", "Kala"], "visitor": null, "details": "They both had the same feeling of \"when everyone is laughing at the movies and you can't\". Metaphorically for Nomi and literally for Kala", "episodeNumber": 8, "episodeName": "We will All be Judged by the Courage of Our Hearts"},
+    {"sensates": ["Kala", "Wolfgang"], "visitor": null, "details": "Kala visits Wolfgang in the hospital where Felix is. Wolfgang talks about how he and Felix met and how close they are. Wolfgang mentions that he is a \"brother by choice\" which he says is much more stronger than blood.", "episodeNumber": 8, "episodeName": "We will All be Judged by the Courage of Our Hearts"},
+    {"sensates": ["Riley", "Will"], "visitor": null, "details": "Riley visits Will's home. Will visits Riley's childhood home. They each mentioned thay they could visit each other's places.", "episodeNumber": 8, "episodeName": "We will All be Judged by the Courage of Our Hearts"},
+    {"sensates": ["Will", "Nomi"], "visitor": null, "details": "They each help other out in figuring out the connection of Whispers in the Biologic Preservation Organization (BPO) along with Dr. Metzger. They both bring up that what the other person's doing is illegal.", "episodeNumber": 8, "episodeName": "We will All be Judged by the Courage of Our Hearts"},
+    {"sensates": ["Sun", "Will", "Nomi"], "visitor": "Sun", "details": "Will is going to the Captain's room and can't help Nomi. Sun wakes up in her prison cell and controls Nomi's body for combat against BPO with help from Will's tactic. Nomi escapes.", "episodeNumber": 8, "episodeName": "We will All be Judged by the Courage of Our Hearts"},
+    {"sensates": ["Capheus", "Nomi"], "visitor": "Capheus", "details": "While on the chase, Nomi went inside a car but she doesn't know how to drive. Capheus takes over and controls the car and they escape.", "episodeNumber": 8, "episodeName": "We will All be Judged by the Courage of Our Hearts"},
+
+    {"sensates": ["Riley", "Yrsa"], "visitor": null, "details": "", "episodeNumber": 9, "episodeName": "Death Doesn't Let You Say Goodbye"},
+    {"sensates": ["Will", "Jonas"], "visitor": null, "details": "", "episodeNumber": 9, "episodeName": "Death Doesn't Let You Say Goodbye"},
+    {"sensates": ["Riley", "Will"], "visitor": null, "details": "", "episodeNumber": 9, "episodeName": "Death Doesn't Let You Say Goodbye"},
+    {"sensates": ["Lito", "Nomi"], "visitor": null, "details": "", "episodeNumber": 9, "episodeName": "Death Doesn't Let You Say Goodbye"}
+  ]
+}
