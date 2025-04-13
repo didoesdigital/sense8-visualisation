@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  accent-color: #5f428f;
+  --violet-700: #5f428f;
+  --coolgrey-100: #faf9fb;
+  --coolgrey-200: #f2f1f4;
+  --coolgrey-400: #e2e0e5;
+  --coolgrey-900: #3c3941;
+  --sans-serif-stack: "Source Sans 3", "Source Sans Pro", "Work Sans", "Lato",
+    "Noto Sans", "Assistant", "Libre Franklin", "Open Sans", "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --coolgrey-100: #1b191f;
+    --coolgrey-200: #504c57;
+    --coolgrey-300: #676170;
+    --coolgrey-400: #868091;
+    --coolgrey-700: #eae8ed;
+    --coolgrey-900: #faf9fb;
+    --gold-300: #faead1;
+    --gold-400: #ecb255;
+    --green-400: #06db97;
+    --green-500: #24d59e;
+    --green-600: #84DCC0;
+    --green-900: #ECF9F5;
+    --green-shadow: #067551;
+    --peach-400: #ebc19d;
+    --red-500: #f59fa3;
+    --violet-500: #af98d8;
+    --violet-600: #b19cd3;
+    --violet-700: #d5cbe6;
+    --violet-900: #e4ddee;
+    --yellow-400: #ffe342;
+    --outOfSeasonStrokeOpacity: 0.8;
+    --outOfSeasonFillOpacity: 0.8;
+  }
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  color: var(--coolgrey-900);
+  font-family: var(--sans-serif-stack);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0 auto;
+  background-color: var(--coolgrey-100);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--sans-serif-stack);
+  line-height: 1.2;
+  margin-top: 1.5rem;
+}
+small {
+  font-size: calc(0.75rem + 0.25vw);
+}
+ul {
+  padding-left: 1rem;
+  margin-bottom: 0.25rem;
+}
+p {
+  margin-top: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+a {
+  color: var(--violet-700);
+}
+.page {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#intro,
+#outro {
+  max-width: 60rem;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+article {
+  padding: 0;
+  max-width: 40rem;
+  margin: 0 auto;
+}
+figure {
+  width: 100%;
+}
+
+.tick line,
+.domain {
+  stroke: var(--coolgrey-400);
+}
+
+text {
+  fill: #3c3941;
+  font: 400 16px/1.4 "Source Sans 3", "Source Sans Pro", "Noto Sans", sans-serif;
+}
+
+.footer-links {
+  columns: 1;
+  margin-top: 0.5rem;
+}
+.footer-links p {
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+.copyright-para {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+@media only screen and (min-width: 500px) {
+  .footer-links {
+    columns: 3;
+  }
+  .copyright-para {
+    margin-top: 3rem;
+    /* text-align: center; */
+  }
+}
