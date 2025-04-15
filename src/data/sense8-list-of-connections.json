@@ -86,5 +86,7 @@
     {"sensates": ["Will", "Jonas"], "visitor": null, "details": "Will visits Jonas where he's held captive while Jonas visits Will at home.", "episodeNumber": 9, "episodeName": "Death Doesn't Let You Say Goodbye"},
     {"sensates": ["Riley", "Will"], "visitor": null, "details": "Riley visits Will at his home while he visits her in the cave.", "episodeNumber": 9, "episodeName": "Death Doesn't Let You Say Goodbye"},
     {"sensates": ["Lito", "Nomi"], "visitor": null, "details": "Nomi visits Lito at the museum while Lito visits Nomi in her trashed apartment.", "episodeNumber": 9, "episodeName": "Death Doesn't Let You Say Goodbye"},
+    {"sensates": ["Riley", "Capheus"], "visitor": null, "details": "Riley visits Capheus in his bus while Capheus visits Riley at her family's tombstones.", "episodeNumber": 9, "episodeName": "Death Doesn't Let You Say Goodbye"},
+
   ]
 }
