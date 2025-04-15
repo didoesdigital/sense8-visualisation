@@ -2,7 +2,7 @@
   "name": "didoesdigital-sense8-visualisation",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/script.js",
   "scripts": {
     "dev": "npx live-server src",
     "test": "echo \"Error: no test specified\" && exit 1"

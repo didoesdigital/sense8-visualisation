@@ -28,8 +28,8 @@
     --gold-400: #ecb255;
     --green-400: #06db97;
     --green-500: #24d59e;
-    --green-600: #84DCC0;
-    --green-900: #ECF9F5;
+    --green-600: #84dcc0;
+    --green-900: #ecf9f5;
     --green-shadow: #067551;
     --peach-400: #ebc19d;
     --red-500: #f59fa3;
@@ -118,17 +118,21 @@ text {
   margin-bottom: 0.5rem;
   text-align: left;
 }
-.copyright-para {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-  text-align: left;
-}
 @media only screen and (min-width: 500px) {
   .footer-links {
     columns: 3;
   }
-  .copyright-para {
-    margin-top: 3rem;
-    /* text-align: center; */
+}
+
+.labels {
+  fill: #504C57;
+  font-family: "Source Sans 3", "Source Sans Pro", "Quicksand", "Work Sans", "Lato", "Noto Sans", "Assistant", "Libre Franklin", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+@media (prefers-color-scheme: dark) {
+  .labels {
+    fill: #fff;
   }
 }

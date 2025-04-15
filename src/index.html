@@ -70,7 +70,17 @@
                 ></small
               >
             </p>
-            <p style="margin-top: 1rem">TODO…</p>
+            <p style="margin-top: 1rem; margin-bottom: 1rem">
+              In celebration of a show I watched nearly 10 years ago, here is a
+              visualisation of all the "visits" between "sensates" in season 1
+              of Sense8.
+            </p>
+          </div>
+        </section>
+
+        <section id="viz">
+          <div class="content-area">
+            <div id="chart"></div>
           </div>
         </section>
 
@@ -106,7 +116,8 @@
               >, adapted under the
               <a href="https://creativecommons.org/licenses/by-sa/3.0/"
                 >CC BY-SA license</a
-              >. Changes made include formatting of the data.
+              >. Changes made include formatting of the data and filling in
+              gaps.
             </p>
 
             <h3
@@ -123,6 +134,13 @@
               You can see the code on
               <a href="https://github.com/didoesdigital/sense8"
                 >code on GitHub</a
+              >. The <code>drawChordDiagram.js</code> code is derived from the
+              ISC-licensed example at
+              <a
+                href="https://observablehq.com/@d3/chord-diagram"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Chord diagram / D3 | Observable</a
               >.
             </p>
 
@@ -207,16 +225,13 @@
                 >
               </p>
             </div>
-            <p class="copyright-para">
-              © Diana MacDonald 2025<span id="copyright"></span>
-            </p>
           </div>
         </section>
       </div>
     </main>
 
     <script src="https://d3js.org/d3.v7.min.js"></script>
-    <script src="./script.js"></script>
+    <script type="module" src="./script.js"></script>
 
     <!-- Google tag (gtag.js) -->
     <script
