@@ -82,9 +82,9 @@
     {"sensates": ["Sun", "Will", "Nomi"], "visitor": "Sun", "details": "Will is going to the Captain's room and can't help Nomi. Sun wakes up in her prison cell and controls Nomi's body for combat against BPO with help from Will's tactic. Nomi escapes.", "episodeNumber": 8, "episodeName": "We will All be Judged by the Courage of Our Hearts"},
     {"sensates": ["Capheus", "Nomi"], "visitor": "Capheus", "details": "While on the chase, Nomi went inside a car but she doesn't know how to drive. Capheus takes over and controls the car and they escape.", "episodeNumber": 8, "episodeName": "We will All be Judged by the Courage of Our Hearts"},
 
-    {"sensates": ["Riley", "Yrsa"], "visitor": null, "details": "", "episodeNumber": 9, "episodeName": "Death Doesn't Let You Say Goodbye"},
-    {"sensates": ["Will", "Jonas"], "visitor": null, "details": "", "episodeNumber": 9, "episodeName": "Death Doesn't Let You Say Goodbye"},
-    {"sensates": ["Riley", "Will"], "visitor": null, "details": "", "episodeNumber": 9, "episodeName": "Death Doesn't Let You Say Goodbye"},
-    {"sensates": ["Lito", "Nomi"], "visitor": null, "details": "", "episodeNumber": 9, "episodeName": "Death Doesn't Let You Say Goodbye"}
+    {"sensates": ["Riley", "Yrsa"], "visitor": null, "details": "Riley walks in a cave and Yrsa visits her while simultaneously Riley visits Yrsa in her home.", "episodeNumber": 9, "episodeName": "Death Doesn't Let You Say Goodbye"},
+    {"sensates": ["Will", "Jonas"], "visitor": null, "details": "Will visits Jonas where he's held captive while Jonas visits Will at home.", "episodeNumber": 9, "episodeName": "Death Doesn't Let You Say Goodbye"},
+    {"sensates": ["Riley", "Will"], "visitor": null, "details": "Riley visits Will at his home while he visits her in the cave.", "episodeNumber": 9, "episodeName": "Death Doesn't Let You Say Goodbye"},
+    {"sensates": ["Lito", "Nomi"], "visitor": null, "details": "Nomi visits Lito at the museum while Lito visits Nomi in her trashed apartment.", "episodeNumber": 9, "episodeName": "Death Doesn't Let You Say Goodbye"},
   ]
 }
