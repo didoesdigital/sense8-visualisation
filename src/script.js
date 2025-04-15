@@ -26,6 +26,7 @@ async function loadData() {
   // }, new Set());
   // console.log(sensates); data = dataJson.data;
   // Full list of sensates in dataset: "Jonas", "Angelica", "Whispers", "Riley", "Will", "Wolfgang", "Kala", "Capheus", "Sun", "Nomi", "Lito", "Yrsa"
+  // "Niles" as well, after data additions
 
   const visits = dataJson.data;
 
