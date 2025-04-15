@@ -103,7 +103,7 @@
 
     {"sensates": ["Yrsa", "Riley"], "visitors": ["Yrsa"], "visited": ["Riley"], "details": "In a hospital, Riley lies in bed while Yrsa appears over her.", "episodeNumber": 11, "episodeName": "Just Turn the Wheel and the Future Changes"},
     {"sensates": ["Will", "Nomi"], "visitors": ["Will"], "visited": ["Nomi"], "details": "Will appears in Nomi's apartment and helps her plan how to save Riley.", "episodeNumber": 11, "episodeName": "Just Turn the Wheel and the Future Changes"},
-    {"sensates": ["Nomi", "Will", "Riley"], "visitors": ["Nomi, Will"], "visited": ["Riley"], "details": "Nomi and Will visit Riley in the hospital.", "episodeNumber": 11, "episodeName": "Just Turn the Wheel and the Future Changes"},
+    {"sensates": ["Nomi", "Will", "Riley"], "visitors": ["Nomi", "Will"], "visited": ["Riley"], "details": "Nomi and Will visit Riley in the hospital.", "episodeNumber": 11, "episodeName": "Just Turn the Wheel and the Future Changes"},
     {"sensates": ["Sun", "Capheus"], "visitors": null, "visited": null, "details": "Capheus and Sun punch her cell wall while Sun appears in the factory and controls Capheus to lean back and save him from being shot.", "episodeNumber": 11, "episodeName": "Just Turn the Wheel and the Future Changes"},
     {"sensates": ["Will", "Kala"], "visitors": ["Will"], "visited": ["Kala"], "details": "Will controls Kala to back the Guru Yash against the wall.", "episodeNumber": 11, "episodeName": "Just Turn the Wheel and the Future Changes"},
     {"sensates": ["Will", "Kala", "Riley"], "visitors": ["Will", "Kala"], "visited": ["Riley"], "details": "Will and Kala stand over Riley's hospital bed.", "episodeNumber": 11, "episodeName": "Just Turn the Wheel and the Future Changes"},
