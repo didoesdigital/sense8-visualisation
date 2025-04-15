@@ -18,17 +18,24 @@ function drawChart() {
 
 async function loadData() {
   const dataJson = await d3.json("./data/sense8-list-of-connections.json");
+  // Sense checks:
   // const sensates = dataJson.data.reduce((previousList, currentVisit) => {
   //   for (const sensate of currentVisit.sensates) {
   //     previousList.add(sensate);
   //   }
   //   return previousList;
   // }, new Set());
-  // console.log(sensates); data = dataJson.data;
+  // console.log(sensates);
   // Full list of sensates in dataset: "Jonas", "Angelica", "Whispers", "Riley", "Will", "Wolfgang", "Kala", "Capheus", "Sun", "Nomi", "Lito", "Yrsa"
   // "Niles" as well, after data additions
-
+  
   const visits = dataJson.data;
+  console.log({visits});
+  // Sense checks:
+  // const allEntriesWithVisitedFields = visits.filter(visit => visit.visited === null || visit.visited.length > 0)
+  // console.log({allEntriesWithVisitedFields});
+  // const allEntriesWithVisitorsFields = visits.filter(visit => visit.visitors === null || visit.visitors.length > 0)
+  // console.log({allEntriesWithVisitorsFields});
 
   const visitsForAug8Cluster = visits.filter((visit) =>
     visit.sensates.every((sensate) => aug8Cluster.includes(sensate))
