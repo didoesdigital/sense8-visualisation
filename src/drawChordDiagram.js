@@ -47,29 +47,46 @@ export function drawChordDiagram(data) {
   const svg = d3
     .select("#chart")
     .append("svg")
+    .attr("aria-labelledby", "title")
+    .attr("aria-describedby", "chart-desc")
     .attr("width", width)
     .attr("height", height)
     .attr("viewBox", [-width / 2, -height / 2, width, height])
     .attr("style", "width: 100%; height: auto; font: 10px sans-serif;");
 
+  svg
+    .append("desc")
+    .attr("id", "chart-desc")
+    .text(
+      "This complicated chord diagram shows Will made the most visits to other sensates at 39 visits."
+    );
+
   const chords = chord(data);
 
-  const group = svg.append("g").selectAll().data(chords.groups).join("g");
+  const group = svg
+    .append("g")
+    .attr("role", "presentation")
+    .selectAll()
+    .data(chords.groups)
+    .join("g")
+    .attr("role", "presentation");
 
   group
     .append("path")
     .attr("fill", (d) => color(names[d.index]))
-    .attr("d", arc);
-
-  group
+    .attr("d", arc)
     .append("title")
-    .text((d) => `${names[d.index]}\n${formatValue(d.value)}`);
+    .text((d) => `${names[d.index]}\n${formatValue(d.value)} total visits`);
 
   const groupTick = group
     .append("g")
+    .attr("role", "presentation")
+    .attr("aria-hidden", true)
     .selectAll()
     .data((d) => groupTicks(d, tickStep))
     .join("g")
+    .attr("role", "presentation")
+    .attr("aria-hidden", true)
     .attr(
       "transform",
       (d) =>
@@ -82,6 +99,7 @@ export function drawChordDiagram(data) {
 
   groupTick
     .append("text")
+    .attr("aria-hidden", true)
     .attr("x", 8)
     .attr("dy", "0.35em")
     .attr("transform", (d) =>
@@ -93,11 +111,13 @@ export function drawChordDiagram(data) {
     .attr("font-weight", fontWeight)
     .attr("fill", textColor)
     .attr("class", "labels")
+    .attr("aria-hidden", "true")
     .text((d) => formatValue(d.value));
 
   group
     .select("text")
     .attr("font-weight", "bold")
+    .attr("aria-hidden", true)
     .text(function (d) {
       return this.getAttribute("text-anchor") === "end"
         ? `↑ ${names[d.index]}`
@@ -108,6 +128,7 @@ export function drawChordDiagram(data) {
 
   svg
     .append("g")
+    .attr("role", "presentation")
     .selectAll("path")
     .data(chords)
     .join("path")

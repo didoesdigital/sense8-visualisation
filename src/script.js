@@ -12,6 +12,41 @@ const aug8Cluster = [
   "Lito",
 ];
 
+function drawDataTable() {
+  const tableContainer = d3
+    .select("#table")
+    .attr("class", "table-container")
+    .attr("role", "group")
+    .attr("aria-labelledby", "caption");
+
+  const table = tableContainer.append("table");
+
+  const caption = table
+    .append("caption")
+    .attr("id", "caption")
+    .text(
+      "Visits by sensates within the August 8 cluster to other sensates within the cluster"
+    );
+
+  const tableHead = table.append("thead");
+  const tableHeadRow = tableHead.append("tr");
+  tableHeadRow.append("th").attr("scope", "col").text("Visitor");
+  tableHeadRow.append("th").attr("scope", "col").text("Visited");
+  tableHeadRow.append("th").attr("scope", "col").text("Visits");
+
+  const tableBody = table.append("tbody");
+  data.forEach((row, rowId) => {
+    row.forEach((col, colId) => {
+      const visitorRow = tableBody.append("tr");
+      const visitor = aug8Cluster[rowId];
+      const visited = aug8Cluster[colId];
+      visitorRow.append("td").text(visitor);
+      visitorRow.append("td").text(visited);
+      visitorRow.append("td").text(data[rowId][colId]);
+    });
+  });
+}
+
 async function loadData() {
   const dataJson = await d3.json("./data/sense8-list-of-connections.json");
   // Sense checks:
@@ -101,7 +136,7 @@ async function loadData() {
   ];
   // console.log(visitMatrix);
 
-  visitsForAug8Cluster.forEach((visit, ind) => {
+  visitsForAug8Cluster.forEach((visit) => {
     visit.visitors.forEach((visitor) => {
       visit.visited.forEach((visited) => {
         const row = aug8Cluster.findIndex((sensate) => sensate === visitor);
@@ -131,6 +166,7 @@ async function loadData() {
   // console.log(visitsForAug8Cluster[0]); // {"sensates": ["Riley", "Will"], "visitors": ["Riley"], "visited": ["Will"], "details": "Will hears the music Riley is playing in the club.", "episodeNumber": 1, "episodeName": "Limbic Resonance"},
 
   drawChordDiagram(data);
+  drawDataTable(data);
 }
 
 loadData();

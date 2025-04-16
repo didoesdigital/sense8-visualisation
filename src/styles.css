@@ -9,7 +9,9 @@
   --violet-700: #5f428f;
   --coolgrey-100: #faf9fb;
   --coolgrey-200: #f2f1f4;
+  --coolgrey-300: #eae8ed;
   --coolgrey-400: #e2e0e5;
+  --coolgrey-700: #676170;
   --coolgrey-900: #3c3941;
   --sans-serif-stack: "Source Sans 3", "Source Sans Pro", "Work Sans", "Lato",
     "Noto Sans", "Assistant", "Libre Franklin", "Open Sans", "Helvetica Neue",
@@ -125,14 +127,52 @@ text {
 }
 
 .labels {
-  fill: #504C57;
-  font-family: "Source Sans 3", "Source Sans Pro", "Quicksand", "Work Sans", "Lato", "Noto Sans", "Assistant", "Libre Franklin", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  fill: var(--coolgrey-900);
+  font-family: "Source Sans 3", "Source Sans Pro", "Quicksand", "Work Sans",
+    "Lato", "Noto Sans", "Assistant", "Libre Franklin", "Open Sans",
+    "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 400;
 }
 
-@media (prefers-color-scheme: dark) {
-  .labels {
-    fill: #fff;
-  }
+figcaption {
+  color: var(--coolgrey-700);
+  display: flex;
+  justify-content: center;
+}
+
+.table-container {
+  overflow-x: auto;
+  white-space: nowrap;
+  width: 240px;
+  min-width: 240px;
+}
+
+table {
+  border-collapse: collapse;
+}
+caption {
+  white-space: initial;
+  text-align: left;
+  padding: 8px 0;
+  max-width: 35em;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+  background-color: var(--coolgrey-200);
+}
+
+th,
+td {
+  border: 1px solid var(--coolgrey-300);
+  text-align: left;
+  padding: 8px;
+}
+
+td:first-of-type {
+  font-weight: 800;
 }
